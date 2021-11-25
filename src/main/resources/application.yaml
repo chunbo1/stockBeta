@@ -1,0 +1,20 @@
+#$MODULE_WORKING_DIR$ is C:\DEV\demo
+server:
+  port: 8842
+springdoc:
+  api-docs:
+    path: /api-docs
+  show-actuator: true
+
+logging:
+  config: logback-spring.xml
+
+stock-beta:
+  dbRecoryTable: StockReturnTable
+  filePath: C:\DEV\StockBeta
+  bankHolidays:
+    11-25-2021: 2021ThanksGiving
+    9-6-2021: 2021LaborDay
+    7-5-2021: 2021IndependenceDay
+
+

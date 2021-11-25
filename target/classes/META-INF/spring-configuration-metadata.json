@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "stock-beta",
+      "type": "com.stockbeta.StockBetaSettings",
+      "sourceType": "com.stockbeta.StockBetaSettings"
+    }
+  ],
+  "properties": [
+    {
+      "name": "stock-beta.bank-holidays",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.stockbeta.StockBetaSettings"
+    },
+    {
+      "name": "stock-beta.db-recory-table",
+      "type": "java.lang.String",
+      "sourceType": "com.stockbeta.StockBetaSettings"
+    },
+    {
+      "name": "stock-beta.file-path",
+      "type": "java.lang.String",
+      "sourceType": "com.stockbeta.StockBetaSettings"
+    }
+  ],
+  "hints": []
+}
